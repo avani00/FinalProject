@@ -33,10 +33,10 @@ public class SammieMove : MonoBehaviour
              transform.position += -transform.forward * Time.deltaTime * speed;
         }
         if (Input.GetKey(KeyCode.E)) { // Rotate right
-            transform.Rotate(new Vector3(0, 20 * Time.deltaTime, 0));
+            transform.Rotate(new Vector3(0, 100 * Time.deltaTime, 0));
         }
         if (Input.GetKey(KeyCode.Q)) { // Rotate left
-            transform.Rotate(new Vector3(0, -20 * Time.deltaTime, 0));
+            transform.Rotate(new Vector3(0, -100 * Time.deltaTime, 0));
         }
 
         // if (Input.GetKey(KeyCode.Space)) { // jump
