@@ -7,13 +7,10 @@ public class VillagerSpeak : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
-
     // Update is called once per frame
     void Update()
-    {
-        
+    {   
     }
 
     void OnTriggerEnter(Collider other) {
@@ -27,10 +24,10 @@ public class VillagerSpeak : MonoBehaviour
             Debug.Log("Only one of us are lying.\nGiana was wearing a snow jacket before she left.");
         }
         if (other.name == "Greg") {
-            Debug.Log("Billy is telling the truth, and Giana was wearing a tanktop and shorts.");
+            Debug.Log("Billy always tells the truth, and Giana was wearing a tanktop and shorts.");
         }
         if (other.name == "Faith") {
-            Debug.Log("Lisa is telling the truth.\nI heard Giana has a vacation home on the other side of Fairy Forest.");
+            Debug.Log("Lisa never lies.\nI heard Giana has a vacation home on the other side of Fairy Forest.");
         }
 
     }
