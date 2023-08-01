@@ -8595,12 +8595,12 @@ GameObject:
   - component: {fileID: 788851977}
   - component: {fileID: 788851976}
   m_Layer: 0
-  m_Name: Cube (31)
+  m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &788851975
 Transform:
   m_ObjectHideFlags: 0
